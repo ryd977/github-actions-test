@@ -2,7 +2,7 @@ name: Hello Worl
 author: mathias
 inputs:
   who-to-greet
-    description: 'who to greet'
+    description: "who to greet"
     required:  true
     default: Mathias
 outputs:

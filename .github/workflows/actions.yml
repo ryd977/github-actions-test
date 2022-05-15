@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: checkout code
         id: checkoutCode
-        uses: actions/checkout@v1.1
+        uses: actions/checkout@v3.0.2
       - name: list
         run: |
           pwd

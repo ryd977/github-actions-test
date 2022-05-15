@@ -4,6 +4,13 @@ jobs:
   run-githhhh:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout code
+        id: checkoutCode
+        uses: actions/checkout@v1.1
+      - name: list
+        run: |
+          pwd
+          ls
       - name: simple action
         id: greet
         uses: actions/hello-world-javascript-action@v1.1

@@ -1,9 +1,9 @@
 name: Hello Worl
 author: mathias
 inputs:
-  who-to-greet
+  who-to-greet:
     description: "who to greet"
-    required:  true
+    required: true
     default: Mathias
 outputs:
   time:
@@ -11,4 +11,3 @@ outputs:
 runs:
   using: "node12"
   main: "dist/index.js"
-  

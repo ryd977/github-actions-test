@@ -14,7 +14,7 @@ jobs:
           echo $GITHUB_SHA
           echo $GIBHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
-          echo "$ {{github.token}}"
+          echo "${{github.token}}"
           #git clone git@github:ryd99/$GIBHUB_REPOSITORY
       - name: simple action
         id: greet
